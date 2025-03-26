@@ -18,20 +18,20 @@ Essas seções estão representadas no código em diretórios como `pages/nomePa
    ```sh
    git clone https://github.com/i9-tech/i9-design-react.git
    ```
-2. **Execute o arquivo setup.bat**
-   Basta executar o arquivo `setup.bat`, clicando nele duas vezes
+2. **Execute o arquivo `setup.bat`**
+   - Basta executar o arquivo `setup.bat`, clicando nele duas vezes. 
 
-4. **Aguarde a instalação de dependências**
-   O arquivo `setup.bat` irá instalar a última versão do Node, NPM e as dependências do projeto. Após a instalação, ele rodará automaticamente o projeto em desenvolvimento.
+3. **Aguarde a instalação de dependências**
+   - O arquivo `setup.bat` irá instalar a última versão do Node, NPM e as dependências do projeto. Após a instalação, ele rodará automaticamente o projeto em desenvolvimento.
 
-6. **Selecione uma opção no menu inicial**
+4. **Selecione uma opção no menu inicial**
    - Cada seção está identificada dentro de um diretório, como `pages/Botoes`, `pages/Cards`, etc.
    - Essas páginas são **componentes** e já possuem algumas estilizações padrão, como:
      - Cor de fundo
      - Elementos centralizados
      - Preenchimento de 100% da tela | **NÃO ALTERE ESSE**
 
-7. **Adicione suas estilizações**
+5. **Adicione suas estilizações**
    - Dentro de cada componente `.jsx`, há uma `div` de exemplo com um texto para que você possa começar a prototipar.
    - Modifique e adicione páginas e componentes conforme necessário.
 
