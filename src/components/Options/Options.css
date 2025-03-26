@@ -1,0 +1,17 @@
+.botoes {
+    display: flex;
+    gap: 8px;
+    a {
+        background-color: #83A1FF;
+        color: #fff;
+        padding: 8px;
+        border: none;
+        border-radius: 1rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        cursor: pointer;
+        background-color: #0E2361;
+    }
+}
