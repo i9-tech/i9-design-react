@@ -1,10 +1,16 @@
-import './Listas.css'
+import './Listas.css';
+import { Cabecalho } from './Cabecalho/Cabecalho';
+import { Corpo } from './Corpo/Corpo';
+
 
 export function Listas () {
     return (
         <>
         <section className='secao4 secao'>
-        <div>Atualmente, você está no componente de <b>LISTAS</b></div>
+            <table>
+            <Cabecalho/>
+            <Corpo/>
+            </table>
         </section>
         </>
     )
