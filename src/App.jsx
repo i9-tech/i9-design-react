@@ -1,4 +1,5 @@
 import './App.css';
+import './index.css';
 import React, { useState } from 'react';
 import { Button } from './components/Button/Button';
 import { Navbar } from './components/Navbar/Navbar';
@@ -10,6 +11,7 @@ import { Listas } from './pages/Listas/Listas';
 import { Menu } from './pages/Menu/Menu';
 import { Routes, Route } from 'react-router-dom';
 import { Mainbody } from './components/Mainbody/Mainbody';
+
 
 function App() {
   const [menuVisivel, setmenuVisivel] = useState(true);

@@ -1,20 +1,24 @@
 import './DadosCorpo.css';
 import { BotoesCorpo } from '../BotoesCorpo/BotoesCorpo';
+import { InfoCorpo } from '../InfoCorpo/InfoCorpo';
 import { ImagemCorpo } from '../ImagemCorpo/ImagemCorpo';
 
 export function DadosCorpo() {
     return(
         <>
-        <td className="item"><span>01123</span></td>
+        <InfoCorpo info='01123'/>
         <ImagemCorpo/>
-        <td className="item"><span>Arroz</span></td>
-        <td className="item"><span>12/07/2025</span></td>
-        <td className="item"><span>R$ 10,00</span></td>
-        <td className="item"><span>R$ 20,00</span></td>
-        <td className="item"><span>15</span></td>
-        <td className="item"><span>03/03/2025</span></td>
-        <td className="item"><span>Arroz Branco de Cozinha 5kg</span></td>
+        <InfoCorpo info='Arroz'/>
+        <InfoCorpo info='12/07/2025'/>
+        <InfoCorpo info='R$ 10,00'/>
+        <InfoCorpo info='R$ 20,00'/>
+        <InfoCorpo info='15'/>
+        <InfoCorpo info='03/03/2025'/>
+        <InfoCorpo info='Arroz Branco de Cozinha 5kg'/> 
         <BotoesCorpo/>
+        {/* <InfoCorpo info='Guilherme'/>
+        <InfoCorpo info='Estoque'/>
+        <BotoesCorpo/> */}
         </>
     )
 }

@@ -7,6 +7,9 @@ export function Corpo() {
         <tr className='lista-item'>
             <DadosCorpo/>
         </tr>
+        <tr className='lista-item item2'>
+            <DadosCorpo/>
+        </tr>
         </>
     )
 }

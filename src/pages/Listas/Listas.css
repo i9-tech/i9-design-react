@@ -1,3 +1,11 @@
+:root {
+    --texto-preto: #040B28;
+    --hovers: #0E2361;
+    --destaque: #0F14B8;
+    --background: #FAFAFA;
+    --background-white: #FBFEFF;
+}
+
 section.secao4 {
     display: flex;
     height: 100vh;
@@ -5,81 +13,116 @@ section.secao4 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background-color: lightcoral; */
     font-size: medium;
 
     table {
-        /* background-color: aqua; */
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        border-collapse: collapse;
+        table-layout: fixed;
 
         .header {
-                width: 88vw;
-                height: 64px;               
-                /* background-color: yellow; */
-                display: flex;
+            text-align: center;
+            font-weight: bold;
+            background-color: #E8ECF8;
+            border: 1px solid #000;            
+
+            .item-cabecalho {
+                padding: 16px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+        }
+
+        .lista-item {
+            width: 100%;
+
+            td {
+                padding: 12px;
                 text-align: center;
-                gap: 2%;
-                margin-bottom: 0.5%;
-                border: #000 solid 1px;
-                border-radius: 0.5rem;
-                th {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    box-sizing: border-box;
+                vertical-align: middle;
+                white-space: nowrap;
+                
+                button {
+                    padding: 4px;
+                    margin: 0 4px 0 0;
+                    border-radius: 8px;
+                    border: 1px solid #000;
+                    transition: all 0.3s;
+                    white-space: nowrap;
+
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: var(--hovers);
+                    }
+                }
+
+                
+                span {
                     white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
-                    width: 18%;
-                    /* background-color: brown; */
+                    display: block;
+                    max-width: 100%;
                 }
             }
-            .lista-item {
-                gap: 2%;
-                width: 88vw;
-                /* background-color: yellow; */
-                height: 80px;
-                display: flex;
-                padding: 8px;
-                /* margin-bottom: 16px; */
-                
-                td {            
-                    display: flex;
-                    justify-content: center;
-                    box-sizing: border-box;
-                    align-items: center;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    width: 18%;
-                    justify-content: space-evenly;
+        }
+        
+        .item2 {
+            background-color: #E8ECF8;
+        }
+        
+        .imagem {
+            border: #000 solid 1px;
+            border-radius: 0.5rem;
+            background-color: #fff;
+            padding: 2px;
+            
+            img {
+                object-fit: contain; 
+                max-width: 64%;
+            }
+        }
+        
+        
 
-                    button {
-                        width: 40%;
-                        height: 50%;
-                    }
-                    button:hover {
-                        cursor: pointer;
-                    }
-                    
-                    span {
-                        white-space: nowrap;
-                        overflow: hidden;
-                        text-overflow: ellipsis;
-                        display: block;
-                        max-width: 100%;
-                    }
-                }
-                .imagem {
+        
+    }
+
+    .table-produtos {
+        width: 88%;
+        margin: 16px 0;
+
+        .lista-item {
+            td {
+                width: 18%;
+
+                button {
+                    width: 40%;
+                    height: 50%;
+                    border-radius: 6px;
                     border: #000 solid 1px;
-                    border-radius: 0.4rem;
-                    img {
-                        height: 100%;
-                        object-fit: contain;
-                    }
                 }
+            }
+        }
+    }
+
+    .table-funcionarios {
+        width: 20%;
+        font-size: small;
+
+        .lista-item {
+            height: 64px;
+            td {
+                width: fit-content;
+                box-sizing: border-box;
+
+                button {
+                    border-radius: 6px;
+                    border: #000 solid 1px;
+                }
+            }
         }
     }
 }

@@ -7,10 +7,14 @@ export function Listas () {
     return (
         <>
         <section className='secao4 secao'>
-            <table>
+            <table className='table-produtos'>
             <Cabecalho/>
             <Corpo/>
             </table>
+            {/* <table className='table-funcionarios'>
+            <Cabecalho/>
+            <Corpo/>
+            </table> */}
         </section>
         </>
     )
