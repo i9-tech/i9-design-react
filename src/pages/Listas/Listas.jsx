@@ -1,20 +1,20 @@
 import './Listas.css';
-import { Cabecalho } from './Cabecalho/Cabecalho';
-import { Corpo } from './Corpo/Corpo';
-
+import { Tabela } from './Tabela/Tabela';
+import { BotaoMudar } from './BotaoMudar/BotaoMudar';
+import { useState } from 'react';
 
 export function Listas () {
+    const [tipoLista, setTipoLista] = useState('Estoque');
+
+    const mudarTipo = () => {
+        setTipoLista(tipoLista === 'Estoque' ? 'Funcionario' : 'Estoque');
+    }
+    
     return (
         <>
         <section className='secao4 secao'>
-            <table className='table-produtos'>
-            <Cabecalho/>
-            <Corpo/>
-            </table>
-            {/* <table className='table-funcionarios'>
-            <Cabecalho/>
-            <Corpo/>
-            </table> */}
+            <BotaoMudar tipoLista={tipoLista} mudarTipo={mudarTipo}/>
+            <Tabela tipoLista={tipoLista} />
         </section>
         </>
     )

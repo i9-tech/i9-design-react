@@ -1,9 +1,11 @@
 import './cabecalho.css';
 import { DadosCabecalho } from './DadosCabecalho/DadosCabecalho';
 
-export function Cabecalho() {
+export function Cabecalho({tipoLista}) {
     return(
         <tr className='header'>
+        {tipoLista === 'Estoque' ? (
+            <>
             <DadosCabecalho nomeCabecalho='Código'/>
             <DadosCabecalho nomeCabecalho='Imagem'/>
             <DadosCabecalho nomeCabecalho='Nome'/>
@@ -14,9 +16,14 @@ export function Cabecalho() {
             <DadosCabecalho nomeCabecalho='Registro'/>
             <DadosCabecalho nomeCabecalho='Descrição'/>
             <DadosCabecalho nomeCabecalho='Ação'/>
-            {/* <DadosCabecalho nomeCabecalho='Nome'/>
+            </>
+        ) : (
+            <>
+            <DadosCabecalho nomeCabecalho='Nome'/>
             <DadosCabecalho nomeCabecalho='Setor'/>
-            <DadosCabecalho nomeCabecalho='Ação'/> */}
+            <DadosCabecalho nomeCabecalho='Ação'/>
+            </>
+        )}
         </tr>
     )
 }

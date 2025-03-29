@@ -3,8 +3,8 @@ import { BotoesCorpo } from '../BotoesCorpo/BotoesCorpo';
 import { InfoCorpo } from '../InfoCorpo/InfoCorpo';
 import { ImagemCorpo } from '../ImagemCorpo/ImagemCorpo';
 
-export function DadosCorpo() {
-    return(
+export function DadosCorpo({tipoLista}) {
+    return tipoLista === 'Estoque' ? (
         <>
         <InfoCorpo info='01123'/>
         <ImagemCorpo/>
@@ -16,9 +16,12 @@ export function DadosCorpo() {
         <InfoCorpo info='03/03/2025'/>
         <InfoCorpo info='Arroz Branco de Cozinha 5kg'/> 
         <BotoesCorpo/>
-        {/* <InfoCorpo info='Guilherme'/>
-        <InfoCorpo info='Estoque'/>
-        <BotoesCorpo/> */}
+        </>
+    ) :(
+        <>  
+            <InfoCorpo info='Guilherme'/>
+            <InfoCorpo info='Estoque'/>
+            <BotoesCorpo/>
         </>
     )
 }
