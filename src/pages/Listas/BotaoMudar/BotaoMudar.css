@@ -7,7 +7,9 @@
     color: white;
     border: none;
     margin-bottom: 40px;
-    
+    position: fixed;
+    top: 24%;
+
     &:hover{
         cursor: pointer;
         background-color: #0F14B8;
