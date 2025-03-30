@@ -7,6 +7,7 @@ import CheckboxPedidoCozinha from './CheckboxPedidoCozinha/CheckboxPedidoCozinha
 import BotaoCarrossel from './BotaoCarrossel/BotaoCarrossel'
 import esquerda from '../../assets/seta-esquerda.svg';
 import direita from '../../assets/seta-direita.svg';
+import Navbar from './Navbar/Navbar'
 
 export function Botoes () {
     return (
@@ -36,9 +37,14 @@ export function Botoes () {
             </div>
         
             <div className='div-botoes-atendente'> 
-                <span> NAVBAR </span>   
+                <span> BOTÃO CARROSEL </span>   
                 <BotaoCarrossel iconeDirecao={esquerda}/>
                 <BotaoCarrossel iconeDirecao={direita}/>
+            </div>
+
+            <div className='div-botoes-atendente'> 
+                <span> NAVBAR </span>   
+                <Navbar/>
             </div>
         </section>
         </>
