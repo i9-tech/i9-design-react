@@ -78,7 +78,7 @@ Para desenvolver novos componentes ou modificar os existentes, siga as boas prá
 💡 **Dica:** As imagens dos componentes estão na pasta `assets`, então caso tenha alguma dúvida ou precise de auxílio, elas estão disponíveis para visualização.
 
 💡 **Bons Costumes:** Nomeie as branches como `dev-NomeBranch`, e sempre utilize prefixos para commits:
-- `add:` Adicionar algo novo.
+- `feature:` Adicionar algo novo.
 - `fix:` Ajustar algo existente.
 - `feat:` Nova funcionalidade pequena dentro de algo grande existente.
 - `del:` Remoção de algo.
