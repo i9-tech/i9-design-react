@@ -6,6 +6,17 @@
   --destaque: #0F14B8;
   --background: #FAFAFA;
   --background-white: #FBFEFF;
+
+  --botaofundo: #BCC9F1;
+  --botao-fundo-clicado: #83A1FF;
+  --botao-letra: #3E43C6;
+
+  --texto: #1E1E1E;
+  --bg-dark: #1A1A1A;
+
+  --card-branco: #FAFAFA;
+  --azul-escuro: #000DDB;
+  --azul-claro: #A5b4fC;
 }
 
 * {

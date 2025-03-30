@@ -4,5 +4,23 @@ section.secao3 {
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
+    gap: 20px;
+    background-color: lightslategray;
+}
+
+.section.secao {
+    div {
+        width: max-content;
+    }
+}
+
+.div-botoes-hover {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 20px;   
+    border: 1px solid red;
+    font-size: 15px;
+    
 }
