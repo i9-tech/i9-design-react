@@ -4,8 +4,10 @@
   --texto-preto: #040B28;
   --hovers: #0E2361;
   --destaque: #0F14B8;
+  --cor-secundaria: #83A1FF;
   --background: #FAFAFA;
   --background-white: #FBFEFF;
+  --color-font: #ffffff;
 }
 
 * {
