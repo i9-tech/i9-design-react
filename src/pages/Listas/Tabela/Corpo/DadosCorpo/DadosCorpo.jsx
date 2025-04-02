@@ -17,7 +17,7 @@ export function DadosCorpo({tipoLista}) {
         <InfoCorpo info='Arroz Branco de Cozinha 5kg'/> 
         <BotoesCorpo/>
         </>
-    ) :(
+    ) : (
         <>  
             <InfoCorpo info='Guilherme'/>
             <InfoCorpo info='Estoque'/>
