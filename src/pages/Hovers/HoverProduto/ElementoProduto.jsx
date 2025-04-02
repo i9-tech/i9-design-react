@@ -1,19 +1,30 @@
-import './ElementoProduto.css'
+import "./ElementoProduto.css";
 
 export function ElementoProduto(props) {
-    return (
-        <>
-            <div className="botao-elemento-produto">
-                <div className="info-produto">
-                    <h2 id='titulo-produto'>Produto</h2>
-                    <span id='descricao'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</span>
-                    <span id="valor-total">R$ 00,00 </span>
-                </div>
-                <img src="./image.png" alt="Imagem do Pastel" />
-                <button class="add">+</button>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div className="botao-elemento-produto">
+        <article>
+          <div className="conteudo-card">
+            <h2>Produto</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              nihil, veniam
+            </p>
+            <span>
+              <p>R$</p> 00,00
+            </span>
+          </div>
+          <div className="conteudo-imagem">
+            <img src="" alt="imagem" />
+          </div>
+          <div className="conteudo-botao">
+            <button>+</button>
+          </div>
+        </article>
+      </div>
+    </>
+  );
 }
 
-export default ElementoProduto
+export default ElementoProduto;

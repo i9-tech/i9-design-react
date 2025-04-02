@@ -5,35 +5,44 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px !important;
+    width: 26vw !important;
     font-weight: 500;
     margin-bottom: 20px;
 
-    .info-produto {
-        color: var(--color-font);
+    article {
+        background-color: yellow;
+        font-size: 16px;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-
-        #descricao {
-            font-size: 1rem;
-            margin: 0.5rem 0;
-            max-width: 200px;
-            opacity: 65%;
+        width: 100%; 
+        
+        .conteudo-card {
+            background-color: red;
+            width: 70%;
             display: flex;
+            flex-direction: column;
             text-align: left;
-        }
+            gap: 10px;
 
-        .valor-total {
-            display: flex;
-            font-weight: bold;
-
-            #numero {
-                margin: 0;
-                width: auto;
-                color: #db0000;
+            span {
+                display: flex;
             }
         }
+        
+        .conteudo-imagem {
+            background-color: aqua;
+            width: 26%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .conteudo-botao {
+            background-color: orange;
+            width: 4%;
+            display: flex;
+            flex-direction: column;
+        }
+
     }
 
 }
