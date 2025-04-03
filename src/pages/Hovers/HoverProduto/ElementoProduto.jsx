@@ -4,7 +4,7 @@ import ImagemProduto from '../assets/image.png';
 export function ElementoProduto(props) {
   return (
     <>
-      <div className="botao-elemento-produto">
+      <div className="elemento-produto">
         <article>
           <div className="conteudo-card">
             <h2>Produto</h2>

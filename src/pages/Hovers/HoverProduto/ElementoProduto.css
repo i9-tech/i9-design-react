@@ -1,19 +1,18 @@
-.botao-elemento-produto {
+.elemento-produto {
     background-color: #FAFAFA;
-    border-radius: 0rem 1rem;
+    border-radius: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 26vw !important;
     font-weight: 500;
     margin-bottom: 20px;
-    
+
 
     article {
         font-size: 16px;
         display: flex;
-        width: 100%; 
-              
+        width: 100%;     
         
         .conteudo-card {
             width: 65%;
@@ -28,7 +27,6 @@
             }   
         }
 
-        
         .conteudo-imagem {
             width: 30%;
             display: flex;
@@ -37,7 +35,7 @@
         }
         
         .conteudo-botao {
-            width: 9%;
+            width: 12%;
             display: flex;
             flex-direction: column;
             
@@ -45,7 +43,7 @@
             button {
                 background-color: var(--azul-escuro);
                 color: var(--background-white);
-                font-size: larger;
+                font-size: x-large;
                 width: 100%;
                 height: 25%;
                 border: none;
