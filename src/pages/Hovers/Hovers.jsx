@@ -2,6 +2,7 @@ import './Hovers.css'
 import BotaoOpcao from './HoverBotoes/BotaoOpcao'
 import ElementoProduto from './HoverProduto/ElementoProduto'
 import ElementoTotal from './HoverTotalProduto/ElementoTotal'
+import ElementoImagem from './HoverImagem/ElementoImagem'
 
 export function Hovers() {
     return (
@@ -9,6 +10,7 @@ export function Hovers() {
             <section className='secao3 secao'>
                 <div className='div-botoes-hover'>
                     <span>IMAGEM PRODUTO</span>
+                    <ElementoImagem/>
                 </div> 
 
                 <div className='div-botoes-hover'>

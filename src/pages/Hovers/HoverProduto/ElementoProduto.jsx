@@ -17,7 +17,7 @@ export function ElementoProduto(props) {
             </span>
           </div>
           <div className="conteudo-imagem">
-            <img src={ImagemProduto} alt="imagem" />
+            <img src={ImagemProduto} alt="Imagem Produto" />
           </div>
           <div className="conteudo-botao">
             <button>+</button>
