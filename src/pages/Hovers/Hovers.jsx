@@ -1,6 +1,7 @@
 import './Hovers.css'
-import BotaoOpcaoHover from './HoverBTN/BotaoOpcaoHover'
+import BotaoOpcao from './HoverBotoes/BotaoOpcao'
 import ElementoProduto from './HoverProduto/ElementoProduto'
+import ElementoTotal from './HoverTotalProduto/ElementoTotal'
 
 export function Hovers() {
     return (
@@ -12,9 +13,9 @@ export function Hovers() {
 
                 <div className='div-botoes-hover'>
                     <span>BOTÕES PADRÃO</span>
-                    <BotaoOpcaoHover texto={'Registro Simplificado de Pedidos'}/>
-                    <BotaoOpcaoHover texto={'Cardápio Personalizável'}/>
-                    <BotaoOpcaoHover texto={'Controle de Vendas'}/>
+                    <BotaoOpcao texto={'Registro Simplificado de Pedidos'}/>
+                    <BotaoOpcao texto={'Cardápio Personalizável'}/>
+                    <BotaoOpcao texto={'Controle de Vendas'}/>
                 </div>
 
 
@@ -25,6 +26,7 @@ export function Hovers() {
 
                 <div className='div-botoes-hover'>
                     <span>ELEMENTO QTD PRODUTO</span>
+                    <ElementoTotal/>
                 </div> 
             </section>
         </>

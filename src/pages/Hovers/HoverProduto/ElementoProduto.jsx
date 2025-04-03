@@ -1,4 +1,5 @@
 import "./ElementoProduto.css";
+import ImagemProduto from '../assets/image.png';
 
 export function ElementoProduto(props) {
   return (
@@ -16,7 +17,7 @@ export function ElementoProduto(props) {
             </span>
           </div>
           <div className="conteudo-imagem">
-            <img src="" alt="imagem" />
+            <img src={ImagemProduto} alt="imagem" />
           </div>
           <div className="conteudo-botao">
             <button>+</button>
