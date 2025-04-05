@@ -1,0 +1,17 @@
+.botao-opcao {
+    background-color: #BCC9F1;
+    color: var(--botao-letra);
+    width: 300px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 1rem 0rem;
+    cursor: pointer;
+} 
+
+.botao-opcao:hover {
+    background-color: var(--botao-fundo-clicado);
+    color: var(--card-branco);
+    transition: all 0.3s; 
+} 
